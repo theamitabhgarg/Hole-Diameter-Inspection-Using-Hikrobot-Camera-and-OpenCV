@@ -2,8 +2,6 @@
 
 A Python and OpenCV computer-vision project for detecting the inner opening of a mechanical part and classifying it into **22 mm** or **24 mm** categories. The project supports offline image testing and live image acquisition from a Hikrobot camera through the MVS SDK.
 
-> **Important validation note:** The current image classifier uses an empirical pixel-diameter boundary derived from a small labelled image set. It is not yet a validated physical measurement system. Keep camera distance, angle, focus, and lighting consistent, and validate against new parts before using the output for production decisions.
-
 ## Features
 
 - Detects the dark inner opening using OpenCV image processing.
